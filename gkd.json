@@ -38,7 +38,7 @@
       ]
     },
     {
-      "id": "com.unicom.myunicom",
+      "id": "com.sinovatech.unicom.ui",
       "name": "中国联通",
       "groups": [
         {
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": "com.cmbchina.cmbcfound",
+      "id": "com.cs_credit_bank",
       "name": "发现精彩",
       "groups": [
         {
