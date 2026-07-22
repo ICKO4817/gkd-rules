@@ -16,22 +16,28 @@
           "desc": "自动点击右上角倒计时跳过按钮，拦截开屏推广广告",
           "rules": [
             {
-              "matches": "[text*='跳过'][clickable=true][visibleToUser=true]",
+              "preKeys": ["skip", "ad_close", "countdown"],
+              "matches": "[text*='跳过'][clickable=true][visibleToUser=true][id!=''][length()<10]",
               "action": "click",
               "delay": 500,
-              "maxWait": 4000
+              "maxWait": 3500,
+              "matchTime": 8000
             },
             {
-              "matches": "[id*='skip'][clickable=true]",
+              "preKeys": ["skip", "ad_close", "countdown"],
+              "matches": "[id*='skip'][clickable=true][visibleToUser=true]",
               "action": "click",
               "delay": 800,
-              "maxWait": 4500
+              "maxWait": 4000,
+              "matchTime": 8000
             },
             {
-              "matches": "[id*='close'][clickable=true]",
+              "preKeys": ["close", "cancel", "exit"],
+              "matches": "[id*='close'][clickable=true][visibleToUser=true]",
               "action": "click",
               "delay": 800,
-              "maxWait": 4500
+              "maxWait": 4000,
+              "matchTime": 8000
             }
           ]
         }
@@ -47,22 +53,28 @@
           "desc": "自动点击右上角倒计时跳过按钮，拦截联通魔方启动广告",
           "rules": [
             {
-              "matches": "[text*='跳过'][clickable=true][visibleToUser=true]",
+              "preKeys": ["skip", "ad_close", "countdown"],
+              "matches": "[text*='跳过'][clickable=true][visibleToUser=true][id!=''][length()<10]",
               "action": "click",
               "delay": 400,
-              "maxWait": 5000
+              "maxWait": 4500,
+              "matchTime": 8000
             },
             {
-              "matches": "[id*='skip'][clickable=true]",
+              "preKeys": ["skip", "ad_close", "countdown"],
+              "matches": "[id*='skip'][clickable=true][visibleToUser=true]",
               "action": "click",
               "delay": 600,
-              "maxWait": 5000
+              "maxWait": 4500,
+              "matchTime": 8000
             },
             {
-              "matches": "[id*='close'][clickable=true]",
+              "preKeys": ["close", "cancel", "exit"],
+              "matches": "[id*='close'][clickable=true][visibleToUser=true]",
               "action": "click",
               "delay": 600,
-              "maxWait": 5000
+              "maxWait": 4500,
+              "matchTime": 8000
             }
           ]
         }
@@ -77,10 +89,12 @@
           "name": "发现精彩-开屏跳过",
           "rules": [
             {
+              "preKeys": ["skip", "ad_close", "countdown"],
               "action": "click",
-              "matches": "[text*=\"跳过\"][clickable=true][visibleToUser=true]",
+              "matches": "[text*=\"跳过\"][clickable=true][visibleToUser=true][id!=''][length()<10]",
               "delay": 500,
-              "maxWait": 4000
+              "maxWait": 3500,
+              "matchTime": 8000
             }
           ]
         }
