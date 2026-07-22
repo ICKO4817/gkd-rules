@@ -1,7 +1,7 @@
 {
-  "id": 9527,
-  "name": "银行开屏跳过",
+  "name": "个人开屏跳过订阅",
   "version": 1,
+  "author": "me",
   "apps": [
     {
       "id": "com.cmbchina.ccd.pluto.cmbActivity",
@@ -12,7 +12,6 @@
           "name": "开屏广告跳过",
           "rules": [
             {
-              "preKeys": ["skip", "跳过", "倒计时"],
               "matches": "[text*='跳过'][clickable=true][visibleToUser=true]",
               "action": "click",
               "delay": 400,
@@ -20,7 +19,6 @@
               "matchTime": 8000
             },
             {
-              "preKeys": ["close", "关闭", "cancel"],
               "matches": "[id*='close'][clickable=true][visibleToUser=true]",
               "action": "click",
               "delay": 600,
@@ -40,7 +38,6 @@
           "name": "开屏广告跳过",
           "rules": [
             {
-              "preKeys": ["skip", "跳过", "倒计时"],
               "matches": "[text*='跳过'][clickable=true][visibleToUser=true]",
               "action": "click",
               "delay": 400,
@@ -48,7 +45,6 @@
               "matchTime": 8000
             },
             {
-              "preKeys": ["close", "关闭", "cancel"],
               "matches": "[id*='close'][clickable=true][visibleToUser=true]",
               "action": "click",
               "delay": 600,
@@ -68,7 +64,6 @@
           "name": "开屏跳过",
           "rules": [
             {
-              "preKeys": ["skip", "跳过", "倒计时"],
               "matches": "[text*='跳过'][clickable=true][visibleToUser=true]",
               "action": "click",
               "delay": 400,
