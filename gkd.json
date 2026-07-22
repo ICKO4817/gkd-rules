@@ -3,8 +3,8 @@
   "name": "个人广告跳过合集",
   "version": 1,
   "author": "icko",
-  "updateUrl": "https://cdn.jsdelivr.net/gh/你的用户名/gkd-rules@main/gkd.json",
-  "checkUpdateUrl": "https://cdn.jsdelivr.net/gh/你的用户名/gkd-rules@main/gkd.json",
+  "updateUrl": "https://cdn.jsdelivr.net/gh/icko/gkd-rules@main/gkd.json",
+  "checkUpdateUrl": "https://cdn.jsdelivr.net/gh/icko/gkd-rules@main/gkd.json",
   "apps": [
     {
       "id": "com.cmbchina.ccd.pluto.cmbActivity",
