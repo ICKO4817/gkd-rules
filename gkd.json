@@ -3,8 +3,8 @@
   "name": "个人广告跳过合集",
   "version": 1,
   "author": "icko",
-  "updateUrl": "https://cdn.jsdelivr.net/gh/icko/gkd-rules@main/gkd.json",
-  "checkUpdateUrl": "https://cdn.jsdelivr.net/gh/icko/gkd-rules@main/gkd.json",
+  "updateUrl": "https://raw.githubusercontent.com/icko/gkd-rules/main/gkd.json",
+  "checkUpdateUrl": "https://raw.githubusercontent.com/icko/gkd-rules/main/gkd.json",
   "apps": [
     {
       "id": "com.cmbchina.ccd.pluto.cmbActivity",
@@ -73,7 +73,7 @@
       "name": "发现精彩",
       "groups": [
         {
-          "key": 101,
+          "key": 0,
           "name": "发现精彩-开屏跳过",
           "rules": [
             {
