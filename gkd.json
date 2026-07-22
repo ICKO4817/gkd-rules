@@ -1,7 +1,11 @@
 {
-  "name": "个人开屏跳过订阅",
-  "version": 1,
-  "author": "me",
+  "subscription": {
+    "id": "ICKO4817-gkd-personal",
+    "name": "个人开屏跳过订阅",
+    "author": "ICKO4817",
+    "version": 1,
+    "updateUrl": "https://cdn.jsdelivr.net/gh/ICKO4817/gkd-rules@main/gkd.json"
+  },
   "apps": [
     {
       "id": "com.cmbchina.ccd.pluto.cmbActivity",
